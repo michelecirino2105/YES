@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flash Deals!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f7f7f7;
+    }
+    h1 {
+      text-align: center;
+    }
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      padding: 15px;
+      margin: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: inline-block;
+      width: 250px;
+      vertical-align: top;
+      text-align: center;
+    }
+    .product img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    .scarcity {
+      color: red;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .price {
+      font-size: 18px;
+      margin-top: 10px;
+      text-decoration: line-through;
+      color: grey;
+    }
+    .discounted-price {
+      font-size: 20px;
+      font-weight: bold;
+      color: green;
+    }
+    .checkout-btn {
+      display: block;
+      margin: 30px auto;
+      padding: 12px 25px;
+      background-color: #28a745;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Limited-Time Flash Deals!</h1>
+  <div class="product">
+    <img src="earbuds.jpg" alt="Wireless Earbuds">
+    <h2>Wireless Earbuds</h2>
+    <div class="price">€39.99</div>
+    <div class="discounted-price">Now €29.99</div>
+    <div class="scarcity">Flash Sale: Only 2 hours left!</div>
+  </div>
+
+  <div class="product">
+    <img src="powerbank.jpg" alt="Portable Power Bank">
+    <h2>Portable Power Bank</h2>
+    <div class="price">€29.99</div>
+    <div class="discounted-price">Now €19.99</div>
+    <div class="scarcity">Hurry! Sale ends in 90 minutes!</div>
+  </div>
+
+  <div class="product">
+    <img src="speaker.jpg" alt="Bluetooth Speaker">
+    <h2>Bluetooth Speaker</h2>
+    <div class="price">€34.99</div>
+    <div class="discounted-price">Now €24.99</div>
+    <div class="scarcity">Limited-Time Deal: 1 hour remaining!</div>
+  </div>
+
+  <a class="checkout-btn" href="https://forms.gle/Phrzm5fb2fVupPNn8" target="_blank">
+    Proceed to Checkout
+  </a>
+</body>
+</html>
